@@ -24,11 +24,13 @@ main {
 .profile-card {
     margin: 0 auto;
     width: 350px;
+
 }
 
 .profile-card-contener {
     background-color: white;
     border-radius: 20px;
+    
 }
 
 .profile-card-banner img {
@@ -40,6 +42,7 @@ main {
     justify-content: center;
     text-align: center;
     list-style: none;
+
 }
 
 .profile-card-contener .banner {
@@ -96,4 +99,34 @@ main {
     letter-spacing: 3px;
     color: rgb(134, 131, 131);
     padding: 8px 23px 33px 37px;
+}
+
+@media (max-width:320px) {
+
+    .profile-card-contener{
+        width: 300px;
+    }
+    .profile-card-banner img {
+        width: 300px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .profile-card{
+        padding: 19px;
+    }
+
+    .profile-card-view li{
+        font-size: 22px;
+        font-weight: bold;
+        color: rgb(44, 44, 44);
+        padding: 10px 0 0 44px;
+    }
+    .profile-card-view-name li{
+        font-size: 10px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        color: rgb(134, 131, 131);
+        padding: 6px 17px 29px 24px
+    }
+    
 }
