@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Fraunces', serif;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+main {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(../images/bg-pattern-bottom.svg);
+    width: auto;
+    height: 100vh;
+}
+
+.profile-card {
+    margin: 0 auto;
+    width: 350px;
+}
+
+.profile-card-contener {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.profile-card-banner img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.profile-card-contener {
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+}
+
+.profile-card-contener .banner {
+    margin-top: -60px;
+    border-radius: 50px;
+    border: 5px solid white;
+}
+
+.profile-card-contant h1 {
+    padding: 13px;
+    font-size: 20px;
+    color: rgb(61, 61, 61);
+
+}
+
+.profile-card-contant span {
+    font-weight: 100;
+    color: rgb(117, 117, 117);
+}
+
+.profile-card-contant p {
+    font-weight: 100;
+    padding-bottom: 25px;
+    font-size: 15px;
+    color: rgb(121, 120, 120);
+    border-bottom: 1px solid rgb(204, 202, 202);
+}
+
+.profile-views {
+    text-decoration: none;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.profile-card-view {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+.profile-card-view li{
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(44, 44, 44);
+    padding: 10px 0 0 53px;
+}
+
+.profile-card-view-name{
+    list-style: none;
+    display: flex;
+}
+.profile-card-view-name li{
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: rgb(134, 131, 131);
+    padding: 8px 23px 33px 37px;
+}
